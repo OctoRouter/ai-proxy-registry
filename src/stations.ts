@@ -619,9 +619,11 @@ export const stations = [
     name: 'OctoRouter',
     homepage: 'https://octorouter.dev',
     system: 'custom',
+    supportsInvoice: false,
+    supportsCorporateTransfer: false,
     statusUrl: 'https://octorouter.dev/status',
     privacyUrl: 'https://octorouter.dev/privacy',
     refundUrl: 'https://octorouter.dev/refund',
-    updatedAt: '2026-09-25',
+    updatedAt: '2026-09-29',
   },
 ] as const satisfies readonly Station[]
